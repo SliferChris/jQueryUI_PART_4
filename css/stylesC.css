@@ -1,0 +1,165 @@
+#container {
+    border: 5px dashed rgb(112, 172, 237);
+}
+
+#circles {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 2rem;
+    font-family: 'Poppins';
+    font-weight: 600;
+    text-align: center;
+}
+
+.circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    margin: 1rem;
+    color: #3f3f59;
+    font-size: 2rem;
+    font-family: 'Poppins';
+    font-weight: 600;
+    border-radius: 50%;
+}
+
+.C1 {
+    background-color: #B1B2FF;
+}
+
+.C2 {
+    background-color: #AAC4FF;
+}
+
+.C3 {
+    background-color: #D2DAFF;
+}
+
+#dropZone {
+    display: flex;
+    width: 80%;
+    margin: 10rem auto;
+    height: 15vH;
+    justify-content: center;
+    border: 15px solid #b7d3db;
+    font-family: "poppins";
+    font-size: 2rem;
+    font-weight: 200;
+}
+
+#dropZone>p {
+    color: #bfbfd4;
+    font-size: 3rem;
+    font-family: 'Poppins';
+    font-weight: 600;
+}
+
+.zone {
+    border: 1px solid rgb(79, 176, 26);
+    flex: 1;
+}
+
+#leftZone {
+    background-color: #B1B2FF;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+#midZone {
+    background-color: #AAC4FF;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+#rightZone {
+    background-color: #D2DAFF;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.drop-hover {
+    background-color: #3f3f59;
+}
+
+.ui-draggable-dragging {
+    transform: scale(.8)rotate(25deg);
+    box-shadow: 2px 5px 12px rgb(142, 142, 142);
+}
+
+h2,
+span {
+    font-size: 3rem;
+    font-family: 'Poppins';
+    font-weight: 600;
+    color: #7272c9;
+}
+
+h2 {
+    color: #bfbfd4;
+}
+
+#footer {
+    display: flex;
+    margin: 1rem 0;
+    justify-content:center;
+}
+
+#btn_reload,
+#btn_start {
+    width: 150px;
+    margin: 1rem;
+    padding: 1rem;
+    font-family: 'poppins';
+    font-size: 1.2rem;
+    font-weight: 300;
+    text-align: center;
+    letter-spacing: 2px;
+    background-color: #7b90a7;
+    color: #fff;
+    border: 0;
+    cursor: pointer;
+}
+
+#btn_start {
+    background-color: #b0d287;
+}
+
+#btn_reload:hover {
+    background-color: #97bde5;
+}
+
+#btn_start:hover {
+    background-color: #cbe7a7;
+}
+
+.scoremessage {
+    display: none;
+    width: 650px;
+    margin: 0 auto;
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: "Poppins";
+    text-align: center;
+    color: #b7d3db;
+}
+
+#time-score {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+/* .helper {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(25, 167, 167);
+    border-radius: 50%;
+    //background-image: url("../images/logo.png");
+    
+} */
